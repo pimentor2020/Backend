@@ -1,0 +1,7 @@
+2020-07-13 00:01:51,199 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m30s765ms76µs400ns).
+2020-07-13 00:02:11,532 DEBUG com.org.pimentorbackend.controller.login.signup.LoginController [http-nio-9082-exec-4] inside login
+2020-07-13 00:41:22,990 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2020-07-13 00:41:25,095 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-13 00:41:25,112 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-13 00:41:25,113 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2020-07-13 00:41:25,120 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.

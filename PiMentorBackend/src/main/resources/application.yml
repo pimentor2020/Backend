@@ -1,0 +1,37 @@
+server:
+  port : 9082
+
+spring:
+  main:
+    banner-mode: off
+    
+  session:
+    store-type: jdbc
+    jdbc:
+      initialize-schema: always
+    timeout:
+      seconds: 600
+      
+  datasource:
+    url: jdbc:mysql://localhost:3306/pimentor?useSSL=false
+    username: root
+    password: mrinal10
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      use-new-id-generator-mappings: false
+      
+jwt:
+  secret: pimentor
+  
+twilio:
+  sms:
+    ACCOUNT_SID: AC543f486be731fe388af20debe9ed32bc
+    AUTH_TOKEN: ecc91647c751ca9990f6e92a2e88048b
+    TWILIO_SENDER_NO: +12034336238
+  email:
+    AUTH_TOKEN: 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
+    sender_email_id: pimentor2020@gmail.com
+    
+    
